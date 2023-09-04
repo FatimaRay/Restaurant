@@ -1,0 +1,60 @@
+body{
+    background-image: url("plat.jpg");
+    background-position: center;
+    background-repeat: no reprat;
+    background-size: cover;
+}
+form{
+    display: inline-block;
+    justify-content: center;
+    justify-items: center;
+    background-color: transparent;
+    box-shadow: 20px 20px 20px ;
+    border-radius: 15px;
+    margin-left: 500px;
+    margin-top: 100px;
+    height: 400px;
+    width: 350px;
+    border: 1px solid orangered;
+}
+input{
+    font-size: 15px;
+    width: 180px;
+    height: 30px;
+    margin-left: 80px;
+    border-style: none;
+    box-shadow: 10px 10px 10px;
+    background-color: rgb(176, 173, 173);
+}
+label{
+    margin-left: 80px;
+    /* margin-top: 70px;  */
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+.a{
+    margin-top: 80px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: wheat;
+    margin-top: 70px;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: -40px
+}
+.e{
+    font-size: 20px;
+    width:180px;
+    height:30px;
+    background-color:orangered;
+    transition-property: backgroun-color;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+}
+.e:hover{
+    background-color: green;
+}
