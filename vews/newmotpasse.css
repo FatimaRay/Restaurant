@@ -1,0 +1,44 @@
+body{
+    display: inline-block;
+    background-image: url("plat.jpg");
+    background-position: center;
+    background-repeat: no no-repeat;
+    background-size: cover;
+}
+form{
+    background-color: transparent;
+    width: 500px;
+    height: 250px;
+    border: 1px solid orangered ;
+    box-shadow: 20px 20px 20px;
+    border-radius: 10px;
+    margin-top: 195px;
+    margin-left: 485px;
+}
+input{
+    width: 200px;
+    height: 40px;
+    font-style: 15px;
+    border-style: none;
+    background-color: rgb(176, 173, 173);
+    box-shadow: 10px 10px 10px;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+.f{
+    margin-left: 140px;
+    margin-top: 30px;
+}
+.e{
+    background-color: orangered;
+    transition-property: backgroung-color;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+}
+.e:hover{
+    background-color: green;
+}
