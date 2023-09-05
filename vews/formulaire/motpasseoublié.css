@@ -1,5 +1,5 @@
 body{
-    background-image: url("plat.jpg");
+    background-image: url("/vews/plat.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -26,14 +26,14 @@ input{
 .d{
     height: 35px;
     width: 110px;
-    background-color: orangered;
+    background-color: green;
     transition-property: backgroung-color;
     transition-duration: 2s;
     transition-delay: 1s;
     transition-timing-function: ease-in-out;
 }
 .d:hover{
-    background-color: green;
+    background-color: orangered;
 }
 label{
     font-size: 20px;

@@ -1,5 +1,5 @@
 body{
-    background-image: url("plat.jpg");
+    background-image: url("/vews/plat.jpg");
     background-position: center;
     background-repeat: no reprat;
     background-size: cover;
@@ -23,7 +23,7 @@ input{
     height: 30px;
     margin-left: 80px;
     border-style: none;
-    box-shadow: 10px 10px 10px;
+    /* box-shadow: 10px 10px 10px; */
     background-color: rgb(176, 173, 173);
 }
 label{
@@ -49,12 +49,13 @@ a{
     font-size: 20px;
     width:180px;
     height:30px;
-    background-color:orangered;
+    background-color:green;
     transition-property: backgroun-color;
     transition-duration: 2s;
     transition-delay: 1s;
     transition-timing-function: ease-in-out;
+    color: #fff;
 }
 .e:hover{
-    background-color: green;
+    background-color: orangered;
 }

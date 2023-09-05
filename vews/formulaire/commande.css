@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-image: url("v.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+form{
+    display: inline-block;
+    justify-content: center;
+    justify-items: center;
+    background-color: transparent;
+    box-shadow: 25px 45px 35px ;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-top: 150px;
+    height: 700px;
+    width: 600px;
+    border: 1px solid orangered;
+    /* text-align: center; */
+    padding-top: -40px;
+}
+form .fo{
+  margin-top: 70px;  
+  font-size: 23px;
+  font-weight: bold;
+  align-items: center;
+  margin-left: 210px;
+ 
+}
+.fo label{
+    color:orangered;
+    font-style: italic;
+    
+}
+.fo input{
+    font-style: 15px;
+    font-style: italic;
+    height: 40px;
+    border-style: none;
+    background-color: #dad2d2;
+    width: 200px;
+}
+.fo select{
+    font-style: 15px;
+    font-style: italic;
+    height: 35px;
+    border-style: none
+}
+.fo .en{
+    padding: 7px 10px;
+    background-color: green;
+    font-size: 20px;
+    color: #fff;
+    height: 40px;
+    /* text-align: ; */
+}
+.fo .en:hover{
+    background-color:orangered;
+}
+.fo .nom{
+    margin-left: 100px;
+}

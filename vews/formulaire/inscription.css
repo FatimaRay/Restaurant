@@ -1,5 +1,5 @@
 body{
-    background-image: url("plat.jpg");
+    background-image: url("/vews/plat.jpg");
     background-repeat: no repeat;
     background-position: center;
     background-size: cover;
@@ -51,7 +51,7 @@ pre{
     margin-left: 35px;
 }
 .e{
-    background-color: orangered;
+    background-color: green;
     height: 35px; 
     text-decoration-line: none;
     width: 200px;
@@ -63,7 +63,7 @@ pre{
     transition-timing-function: ease-in-out;
 }
 .e:hover{
-    background-color: green;
+    background-color: orangered;
 }
 span{
     font-size: 15px;
