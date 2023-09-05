@@ -386,7 +386,9 @@ button:hover{
 .voirplus{
     justify-content: center;
     justify-items: center;
+
     min-height: 90vh;
+
     width: 100%;
     padding-top: -50px;
     background-image: url("plat.jpg");
@@ -413,6 +415,7 @@ button:hover{
 a span{
     color: orangered;
 }
+
 .Platchaud{
     min-height: 50vh;
     background-color: #fff;
@@ -550,6 +553,12 @@ hr{
 }
 
 
+
+.voirplus .platchaud{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
 
 
 
