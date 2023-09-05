@@ -49,12 +49,13 @@ a{
     font-size: 20px;
     width:180px;
     height:30px;
-    background-color:orangered;
+    background-color:green;
     transition-property: backgroun-color;
     transition-duration: 2s;
     transition-delay: 1s;
     transition-timing-function: ease-in-out;
+    color: #111;
 }
 .e:hover{
-    background-color: green;
+    background-color: orangered;
 }
